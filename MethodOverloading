@@ -1,0 +1,9 @@
+class MethodOverloading {
+  public void aMethod() {
+    System.out.println("Method with 0 param");
+  }
+  
+  public void aMethod(int x) {
+    System.out.println("Method with 1 param: " + x);
+  }
+}
