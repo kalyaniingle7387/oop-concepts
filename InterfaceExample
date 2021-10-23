@@ -1,0 +1,9 @@
+interface IAdd {
+  public int add(int x, int y);
+}
+
+class InterfaceExample implements IAdd {
+  public int add(int x, int y) {
+    return x + y;
+  }
+}
